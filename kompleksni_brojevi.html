@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Skriptni programski jezici</title>
+    </head>
+    <body>
+        <label>Z1:</label>
+        <input type="number" id="z1real" value=0>
+        <input type="number" id="z1img" value=0>
+        <br/>
+        <label>Z2:</label>
+        <input type="number" id="z2real" value=0>
+        <input type="number" id="z2img" value=0>
+        <br/><br/>
+        <select id="operacija">
+            <option value="" disabled selected>Odaberi operaciju</option>
+            <option value="1">Zbrajanje</option>
+            <option value="2">Mnozenje</option>
+        </select>
+        <br/><br/>
+        <button onclick="racunaj()">Racunaj</button>
+       
+
+        <p>Rezultat:</p>
+        <p id="rez"></p>
+
+        <script src="kompleksni_brojevi.js"></script>
+    </body>
+</html>
